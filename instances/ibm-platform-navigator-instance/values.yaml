@@ -3,6 +3,8 @@ global: {}
 ibm-platform-navigator-instance:
   ibmplatformnavigator:
     name: integration-navigator
+    annotations:
+      integration.ibm.com/reconcile-zen-configmap: "false"
     spec:
       license:
         accept: true
